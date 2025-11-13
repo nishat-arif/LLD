@@ -1,0 +1,14 @@
+{
+  "name": "poc2",
+  "version": "1.0.0",
+  "description": "javacript core fundamentals poc",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Nishat Arif",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
