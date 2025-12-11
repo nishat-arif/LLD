@@ -1,0 +1,28 @@
+.header-left{
+  font-family :'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size : 40px ;
+  padding: 5px;
+  font-weight:600;
+  display: flex;
+  flex-direction: row;
+  gap: 10px
+
+}
+
+.body{
+  display:flex;
+  flex-direction: row;
+
+}
+
+.main{
+  display:flex;
+  border: 1px  solid  black;
+  font-family: sans-serif;
+
+}
+
+.sidenav{
+  display:flex;
+  border: 1px solid black;
+}
