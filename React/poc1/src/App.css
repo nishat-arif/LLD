@@ -26,3 +26,16 @@
   display:flex;
   border: 1px solid black;
 }
+
+.shimmer-block{
+  display: flex;
+  background-color: rgb(236, 230, 230);
+
+  padding : 2px ;
+  width: 250px;
+  height : 300px;
+  margin: 20px;
+  border-radius :10px;
+
+
+}
