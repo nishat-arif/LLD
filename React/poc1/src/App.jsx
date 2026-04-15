@@ -2,6 +2,7 @@
 import './App.css'
 import Body from './component/Body'
 import Header from './component/Header';
+import OtpInput from './component/OtpInput';
 
 function App() {
 
@@ -11,7 +12,8 @@ function App() {
   return (
     <div>
       <Header/>
-      <Body />
+      {/* <Body /> */}
+      <OtpInput/>
     
     </div>
   )
