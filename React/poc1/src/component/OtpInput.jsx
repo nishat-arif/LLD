@@ -21,6 +21,52 @@ function OtpInput() {
     if (!e.target.value && e.key === "Backspace") {
       inputRef.current[index - 1]?.focus();
 }
+/**
+ * const handlePaste = (e) => {
+  e.preventDefault();
+
+  const pastedData = e.clipboardData
+    .getData("text")
+    .slice(0, OTP_INPUT)
+    .split("");
+
+  setInputArr((prev) =>
+    prev.map((_, i) => pastedData[i] || "")
+  );
+
+  const nextIndex = Math.min(pastedData.length, OTP_INPUT - 1);
+  inputRef.current[nextIndex]?.focus();
+};
+
+
+const handleKeyDown = (e, index) => {
+  switch (e.key) {
+    case "Backspace":
+      if (inputArr[index] === "" && index > 0) {
+        inputRef.current[index - 1]?.focus();
+      }
+      setInputArr(prev =>
+        prev.map((item, i) => (i === index ? "" : item))
+      );
+      break;
+
+    case "ArrowLeft":
+      if (index > 0) {
+        inputRef.current[index - 1]?.focus();
+      }
+      break;
+
+    case "ArrowRight":
+      if (index < OTP_INPUT - 1) {
+        inputRef.current[index + 1]?.focus();
+      }
+      break;
+
+    default:
+      break;
+  }
+};
+ */
 
   }
   return (
