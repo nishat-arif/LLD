@@ -3,6 +3,7 @@ import './App.css'
 import Body from './component/Body'
 import Header from './component/Header';
 import OtpInput from './component/OtpInput';
+import Progress from './component/Progress';
 
 function App() {
 
@@ -13,7 +14,8 @@ function App() {
     <div>
       <Header/>
       {/* <Body /> */}
-      <OtpInput/>
+      {/* <OtpInput/> */}
+      <Progress/>
     
     </div>
   )

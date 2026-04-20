@@ -3,3 +3,5 @@ export const LOGO_URL = "https://upload.wikimedia.org/wikipedia/commons/thumb/b/
 export const USER_ICON = "https://cdn-icons-png.flaticon.com/512/1077/1077114.png"
 
 export const OTP_INPUT =  5;
+
+export const inputsArr = [0 , 30 , 50 , 60 , 70 , 100]
